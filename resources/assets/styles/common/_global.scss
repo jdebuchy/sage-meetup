@@ -1,0 +1,6 @@
+body {
+	font-size: .9rem;
+	@include media-breakpoint-up(md) {
+			font-size: $font-size-base;
+	}
+}

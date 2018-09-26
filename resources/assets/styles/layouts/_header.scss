@@ -1,0 +1,17 @@
+.banner {
+	background-color: $orange;
+
+	.nav li {
+	  @extend .nav-item;
+	}
+
+	.nav a {
+	  @extend .nav-link;
+	}
+
+	.brand {
+		img {
+			max-width: 180px;
+		}	
+	}
+}

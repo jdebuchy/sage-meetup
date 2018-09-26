@@ -1,0 +1,20 @@
+/** Import Bootstrap functions */
+@import "~bootstrap/scss/functions";
+
+$cyan: #6ed2e6;
+$orange: #f1863c;
+$white: #fff;
+$light-gray: #ccc;
+
+$body-bg: $light-gray;
+$body-color: $white;
+
+$font-family-sans-serif: 'Roboto';
+
+$theme-colors: (
+  primary: $white
+);
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
